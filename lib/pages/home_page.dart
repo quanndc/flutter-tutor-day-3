@@ -26,6 +26,8 @@ class _HomePageState extends State<HomePage> {
         'subtitle': subtitleController.text,
         'isChecked': false,
       });
+      titleController.clear();
+      subtitleController.clear();
     });
     db.updateData();
   }
