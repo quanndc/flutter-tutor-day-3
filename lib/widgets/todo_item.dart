@@ -25,7 +25,7 @@ class TodoItem extends StatelessWidget {
         key: const ValueKey(0),
         endActionPane: ActionPane(
           motion: const ScrollMotion(),
-          dragDismissible: false,
+          dragDismissible: true,
           children: [
             SlidableAction(
               borderRadius: BorderRadius.only(
